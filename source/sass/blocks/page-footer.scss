@@ -1,10 +1,16 @@
 .page-footer__app {
-  padding-bottom: 20px;
+  padding-top: 13px;
+  padding-bottom: 11px;
 
   font-size: 14px;
   line-height: 21px;
 
   border-bottom: 1px solid #e9e9e9;
+}
+
+.page-footer__app-slogan {
+  margin: 0;
+  margin-bottom: 17px;
 }
 
 .page-footer__app-images {
@@ -25,7 +31,7 @@
 
 .page-footer__info-link {
   display: block;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 
   font-size: 14px;
   color: inherit;
@@ -37,8 +43,8 @@
 
 .page-footer__copyright {
   margin: 0;
-  padding-top: 20px;
+  padding-top: 18px;
   padding-bottom: 20px;
-  
+
   font-size: 12px;
 }

@@ -1,6 +1,7 @@
 @font-face {
   font-family: "DinPro";
   font-weight: 400;
+  font-display: swap;
   src: url("../fonts/DinPro.woff") format("woff"),
   url("../fonts/DinPro.eot") format("eot"),
   url("../fonts/DinPro.eot") format("ttf");
@@ -9,6 +10,7 @@
 @font-face {
   font-family: "DinPro-Medium";
   font-weight: 400;
+  font-display: swap;
   src: url("../fonts/DinPro-Medium.woff") format("woff"),
   url("../fonts/DinPro-Medium.eot") format("eot"),
   url("../fonts/DinPro-Medium.eot") format("ttf");
@@ -17,6 +19,7 @@
 @font-face {
   font-family: "DinPro-Bold";
   font-weight: 400;
+  font-display: swap;
   src: url("../fonts/DinPro-Bold.woff") format("woff"),
   url("../fonts/DinPro-Bold.eot") format("eot"),
   url("../fonts/DinPro-Bold.eot") format("ttf");

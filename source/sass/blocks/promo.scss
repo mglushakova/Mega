@@ -1,7 +1,7 @@
 .promo {
   position: relative;
 
-  padding-top: 10px;
+  padding-top: 12px;
   padding-bottom: 15px;
   padding-left: 16px;
   padding-right: 108px;
@@ -16,6 +16,7 @@
 
 .promo__slogan {
   margin: 0;
+  margin-bottom: 11px;
 
   font-size: 16px;
   line-height: 22px;
@@ -25,6 +26,7 @@
 .promo__time {
   position: relative;
 
+  margin: 0;
   margin-left: 20px;
 
   font-family: "DinPro", "Arial", sans-serif;
@@ -45,8 +47,12 @@
   }
 }
 
-.promo__place::before {
-  background-image: url("../img/ic-location.svg");
+.promo__place {
+  margin-bottom: 9px;
+
+  &::before {
+    background-image: url("../img/ic-location.svg");
+  }
 }
 
 .promo__time::before {
@@ -55,6 +61,6 @@
 
 .promo__score {
   position: absolute;
-  right: 15px;
-  bottom: 13px;
+  right: 17px;
+  bottom: 12px;
 }

@@ -16,9 +16,9 @@
 .get-score__intro {
   margin: 0;
   padding-top: 15px;
-  padding-bottom: 33px;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-bottom: 29px;
+  padding-left: 30px;
+  padding-right: 27px;
 
   font-family: "DinPro", "Arial", sans-serif;
   font-size: 15px;
@@ -36,10 +36,14 @@
 .get-score__score {
   position: absolute;
   top: -12px;
-  left: calc(50% - 14px);
+  left: calc(50% - 16px);
 }
 
 .get-score__button {
   position: relative;
   z-index: 1;
+
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -23px;
 }

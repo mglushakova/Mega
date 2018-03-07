@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Мега Весна</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
   </head>
   <body>
     <header class="page-header">
@@ -57,7 +57,7 @@
         <div class="container">
           <div class="get-score__info">
             <p class="get-score__intro">
-              Расскажи о своем участии в проекте: получи +150 баллов и первое достижение!
+              Расскажи о своем участии <br>в проекте: получи +150 баллов и первое достижение!
             </p>
             <span class="get-score__score score">+150</span>
           </div>
@@ -150,8 +150,12 @@
       <div class="page-footer__app">
         <p class="page-footer__app-slogan">Больше баллов и призов — в приложении!</p>
         <div class="page-footer__app-images">
-          <img src="img/google.png" width="120" height="37" alt="Get it on Google Play" class="page-footer__app-icon">
-          <img src="img/appstore.png" width="120" height="37" alt="Available on the App Store" class="page-footer__app-icon">
+          <a class="page-footer__app-link" href="#">
+            <img src="img/google.png" width="120" height="37" alt="Get it on Google Play" class="page-footer__app-icon">
+          </a>
+          <a class="page-footer__app-link" href="#">
+            <img src="img/appstore.png" width="120" height="37" alt="Available on the App Store" class="page-footer__app-icon">
+          </a>
         </div>
       </div>
       <div class="page-footer__socials socials">
@@ -179,6 +183,6 @@
       </p>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="js/script.min.js"></script>
   </body>
 </html>
