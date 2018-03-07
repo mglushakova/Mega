@@ -1,6 +1,23 @@
 @font-face {
-  font-family: "exo2.0-thin";
+  font-family: "DinPro";
   font-weight: 400;
-  src: url("../fonts/exo2.0-thin.woff2") format("woff2"),
-  url("../fonts/exo2.0-thin.woff") format("woff");
+  src: url("../fonts/DinPro.woff") format("woff"),
+  url("../fonts/DinPro.eot") format("eot"),
+  url("../fonts/DinPro.eot") format("ttf");
+}
+
+@font-face {
+  font-family: "DinPro-Medium";
+  font-weight: 400;
+  src: url("../fonts/DinPro-Medium.woff") format("woff"),
+  url("../fonts/DinPro-Medium.eot") format("eot"),
+  url("../fonts/DinPro-Medium.eot") format("ttf");
+}
+
+@font-face {
+  font-family: "DinPro-Bold";
+  font-weight: 400;
+  src: url("../fonts/DinPro-Bold.woff") format("woff"),
+  url("../fonts/DinPro-Bold.eot") format("eot"),
+  url("../fonts/DinPro-Bold.eot") format("ttf");
 }
