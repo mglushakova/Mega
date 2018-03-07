@@ -72,7 +72,7 @@
         <span class="promo__score score">+150</span>
       </section>
 
-      <section class="categories container">
+      <section class="categories container page-main__categories">
         <h2 class="visually-hidden">Категории заданий</h2>
         <p class="categories__intro">Выбери категорию, чтобы перейти к заданиям</p>
         <ul class="categories__list">
@@ -94,25 +94,53 @@
         </ul>
       </section>
 
-      <section class="prize">
+      <section class="prize container">
         <h2 class="visually-hidden">Призы по акции</h2>
         <b class="prize__slogan">Меняй баллы на призы!</b>
-        <div class="prize__category">
-          <h3 class="prize__status">Зарезервировано</h3>
+        <div class="prize__nav">
+          <h3 class="prize__status prize__status--booked" role="button" tabindex="0">Зарезервировано</h3>
+          <h3 class="prize__status prize__status--available prize__status--active" role="button" tabindex="0">Доступные призы</h3>
+        </div>
+        <div class="prize__category prize__category--booked">
           <ul class="prize__list">
             <li class="prize__item">
-              <img class="prize__image" width="100" height="100" src="#" alt="Lady Collection">
-              <h4 class="prize__name">Аксессуар</h4>
-              <p class="prize__brand">Lady Collection</p>
-              <a class="prize__link" href="#">Забрать в магазине</a>
-              <span class="prize__score">100</span>
+              <img class="prize__image" src="img/lady-collection.svg" width="70" height="70" alt="Lady Collection">
+              <div class="prize__wrapper">
+                <h4 class="prize__name">Аксессуар</h4>
+                <p class="prize__brand">Lady Collection</p>
+                <a class="prize__link" href="#">Забрать в магазине</a>
+                <span class="prize__score score">100</span>
+              </div>
             </li>
             <li class="prize__item">
-              <img class="prize__image" width="100" height="100" src="#" alt="Street beet">
-              <h4 class="prize__name">Кроссовки</h4>
-              <p class="prize__brand">Street beet</p>
-              <a class="prize__link" href="#">Забрать в магазине</a>
-              <span class="prize__score">100</span>
+              <img class="prize__image" src="img/street-beat.svg" width="70" height="70" alt="Street beet">
+              <div class="prize__wrapper">
+                <h4 class="prize__name">Кроссовки</h4>
+                <p class="prize__brand">Street beet</p>
+                <a class="prize__link" href="#">Забрать в магазине</a>
+                <span class="prize__score score">100</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="prize__category prize__category--available prize__category--active">
+          <ul class="prize__list">
+            <li class="prize__item">
+              <img class="prize__image" src="img/lady-collection.svg" width="70" height="70" alt="Lady Collection">
+              <div class="prize__wrapper">
+                <h4 class="prize__name">Аксессуар</h4>
+                <p class="prize__brand">Lady Collection</p>
+                <a class="prize__link" href="#">Забрать в магазине</a>
+                <span class="prize__score score">100</span>
+              </div>
+            </li>
+            <li class="prize__item">
+              <img class="prize__image" src="img/street-beat.svg" width="70" height="70" alt="Street beet">
+              <div class="prize__wrapper"><h4 class="prize__name">Кроссовки</h4>
+                <p class="prize__brand">Street beet</p>
+                <a class="prize__link" href="#">Забрать в магазине</a>
+                <span class="prize__score score">100</span>
+              </div>
             </li>
           </ul>
         </div>
