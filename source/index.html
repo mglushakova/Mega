@@ -8,10 +8,12 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="page-header__user-info user-info container">
-        <b class="user-info__status">Любитель тестов</b>
-        <span class="user-info__score score">0</span>
-        <img class="user-info__image" src="img/ic-avatar.svg" width="32" height="32" alt="Анонимный пользователь">
+      <div class="page-header__user-info user-info">
+        <div class="container">
+          <b class="user-info__status">Любитель тестов</b>
+          <span class="user-info__score score">0</span>
+          <img class="user-info__image" src="img/ic-avatar.svg" width="32" height="32" alt="Анонимный пользователь">
+        </div>
       </div>
       <nav class="page-header__nav main-nav">
         <div class="container">
@@ -49,24 +51,28 @@
 
       <h1 class="visually-hidden">MEGAакция #никакихпотом</h1>
 
-      <section class="get-score">
+      <section class="get-score page-main__get-score">
         <h2 class="visually-hidden">Как получить первые баллы</h2>
 
-        <p class="get-score__intro">
-          Расскажи о своем участии в проекте: получи +150 баллов и первое достижение!
-        </p>
-        <span class="get-score__score">+150</span>
-        <a class="get-score__button button" href="#">Поделиться!</a>
+        <div class="container">
+          <div class="get-score__info">
+            <p class="get-score__intro">
+              Расскажи о своем участии в проекте: получи +150 баллов и первое достижение!
+            </p>
+            <span class="get-score__score score">+150</span>
+          </div>
+          <a class="get-score__button button" href="#">Поделиться!</a>
+        </div>
       </section>
 
-      <section class="promo">
+      <section class="promo container page-main__promo">
         <h2 class="promo__slogan">Сходи на тренировку в корнер Adidas!</h2>
         <p class="promo__place">Мега Белая Дача</p>
         <p class="promo__time">18 марта, 18:00</p>
-        <span class="promo__score">+150</span>
+        <span class="promo__score score">+150</span>
       </section>
 
-      <section class="categories">
+      <section class="categories container">
         <h2 class="visually-hidden">Категории заданий</h2>
         <p class="categories__intro">Выбери категорию, чтобы перейти к заданиям</p>
         <ul class="categories__list">

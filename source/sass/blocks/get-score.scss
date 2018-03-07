@@ -1,0 +1,45 @@
+.get-score {
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  text-align: center;
+
+  background-color: #eaeef1;
+}
+
+.get-score__info {
+  position: relative;
+
+  text-align: center;
+}
+
+.get-score__intro {
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 33px;
+  padding-left: 35px;
+  padding-right: 35px;
+
+  font-family: "DinPro", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+
+  background-color: #ffffff;
+
+  border: 2px solid #5698c4;
+  border-radius: 12px;
+
+  box-shadow: 0 11px 14px 0 rgba(0, 0, 0, 0.07);
+}
+
+.get-score__score {
+  position: absolute;
+  top: -12px;
+  left: calc(50% - 14px);
+}
+
+.get-score__button {
+  position: relative;
+  z-index: 1;
+}

@@ -1,4 +1,8 @@
 .user-info {
+  box-shadow: 0 11px 14px 0 rgba(0, 0, 0, 0.07);
+}
+
+.user-info .container {
   position: relative;
 
   padding-top: 13px;
@@ -34,6 +38,4 @@
 
 .user-info__score {
   margin-right: 10px;
-  width: 34px;
-  height: 25px;
 }
