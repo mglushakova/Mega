@@ -1,23 +1,42 @@
 .main-nav {
   position: relative;
 
-  padding-top: 23px;
-  padding-bottom: 23px;
-
   color: #ffffff;
 
   background-image: linear-gradient(270deg, #c9b0b9, #95b7d8);
+
+  &--closed {
+    .main-nav__wrapper {
+      display: none;
+    }
+  }
+
+  &--opened {
+    .main-nav__wrapper {
+      display: block;
+    }
+  }
+}
+
+.main-nav__wrapper {
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+.main-nav__button {
+  position: absolute;
+  top: -41px;
+
+  cursor: pointer;
 }
 
 .main-nav__toggle {
-  position: absolute;
-  top: -41px;
+  position: relative;
+  top: -13px;
 
   padding: 0;
   width: 24px;
   height: 2px;
-
-  cursor: pointer;
 
   background-color: #000000;
 
@@ -32,8 +51,6 @@
     left: 0;
 
     height: 2px;
-
-    cursor: pointer;
 
     background-color: #000000;
   }

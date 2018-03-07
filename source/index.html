@@ -15,29 +15,33 @@
       </div>
       <nav class="page-header__nav main-nav">
         <div class="container">
-          <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
-          <section class="main-nav__user user">
-            <img class="user__image" src="img/oval.png" width="48" height="48" alt="Южная Анастасия">
-            <div class="user__info">
-              <h2 class="user__name">Южная Анастасия</h2>
-              <p class="user__phone">+7 (985) 435-32-32</p>
-            </div>
-          </section>
-          <ul class="main-nav__list">
-            <li class="main-nav__item main-nav__item--task">
-              <a class="main-nav__link">Задания</a>
-            </li>
-            <li class="main-nav__item main-nav__item--rating">
-              <a class="main-nav__link" href="#">Рейтинг</a>
-            </li>
-            <li class="main-nav__item main-nav__item--achievements">
-              <a class="main-nav__link" href="#">Достижения</a>
-            </li>
-            <li class="main-nav__item main-nav__item--prizes">
-              <a class="main-nav__link" href="#">Призы</a>
-            </li>
-          </ul>
-          <a class="main-nav__support" href="#">Поддержка</a>
+          <div class="main-nav__button" role="button" tabindex="0">
+            <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+          </div>
+          <div class="main-nav__wrapper">
+            <section class="main-nav__user user">
+              <img class="user__image" src="img/oval.png" width="48" height="48" alt="Южная Анастасия">
+              <div class="user__info">
+                <h2 class="user__name">Южная Анастасия</h2>
+                <p class="user__phone">+7 (985) 435-32-32</p>
+              </div>
+            </section>
+            <ul class="main-nav__list">
+              <li class="main-nav__item main-nav__item--task">
+                <a class="main-nav__link">Задания</a>
+              </li>
+              <li class="main-nav__item main-nav__item--rating">
+                <a class="main-nav__link" href="#">Рейтинг</a>
+              </li>
+              <li class="main-nav__item main-nav__item--achievements">
+                <a class="main-nav__link" href="#">Достижения</a>
+              </li>
+              <li class="main-nav__item main-nav__item--prizes">
+                <a class="main-nav__link" href="#">Призы</a>
+              </li>
+            </ul>
+            <a class="main-nav__support" href="#">Поддержка</a>
+          </div>
         </div>
       </nav>
     </header>
@@ -107,37 +111,38 @@
           </ul>
         </div>
       </section>
-
-      <footer class="page-footer">
-        <div class="page-footer__app">
-          <p class="page-footer__app-slogan">Больше баллов и призов — в приложении!</p>
-          <img src="#" width="100" height="100" alt="Get it on Google Play" class="page-footer__app-icon">
-          <img src="#" width="100" height="100" alt="Available on the App Store" class="page-footer__app-icon">
-        </div>
-        <div class="page-footer__socials socials">
-          <ul class="socials__list">
-            <li class="socials__item">
-              <a class="socials__link socials__link--fb" href="#"><span class="visually-hidden">Фейсбук</span></a>
-            </li>
-            <li class="socials__item">
-              <a class="socials__link socials__link--vk" href="#"><span class="visually-hidden">Вконтакте</span></a>
-            </li>
-            <li class="socials__item">
-              <a class="socials__link socials__link--ig" href="#"><span class="visually-hidden">Инстаграм</span></a>
-            </li>
-            <li class="socials__item">
-              <a class="socials__link socials__link--yt" href="#"><span class="visually-hidden">Ютуб</span></a>
-            </li>
-          </ul>
-        </div>
-        <div class="page-footer__info">
-          <a class="page-footer__info-link" href="#">Правила акции</a>
-          <a class="page-footer__info-link" href="#">Юридическая информация</a>
-        </div>
-        <p class="page-footer__copyright">
-          © 2010–2017 «ИКЕА Сентерс Рус Менеджмент»
-        </p>
-      </footer>
     </main>
+    <footer class="page-footer">
+      <div class="page-footer__app">
+        <p class="page-footer__app-slogan">Больше баллов и призов — в приложении!</p>
+        <img src="#" width="100" height="100" alt="Get it on Google Play" class="page-footer__app-icon">
+        <img src="#" width="100" height="100" alt="Available on the App Store" class="page-footer__app-icon">
+      </div>
+      <div class="page-footer__socials socials">
+        <ul class="socials__list">
+          <li class="socials__item">
+            <a class="socials__link socials__link--fb" href="#"><span class="visually-hidden">Фейсбук</span></a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link socials__link--vk" href="#"><span class="visually-hidden">Вконтакте</span></a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link socials__link--ig" href="#"><span class="visually-hidden">Инстаграм</span></a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link socials__link--yt" href="#"><span class="visually-hidden">Ютуб</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-footer__info">
+        <a class="page-footer__info-link" href="#">Правила акции</a>
+        <a class="page-footer__info-link" href="#">Юридическая информация</a>
+      </div>
+      <p class="page-footer__copyright">
+        © 2010–2017 «ИКЕА Сентерс Рус Менеджмент»
+      </p>
+    </footer>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
